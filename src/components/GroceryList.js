@@ -7,6 +7,7 @@ const GroceryList = props => {
     return(
       <Grocery
         name={groceryObject.name}
+        key={groceryObject.id}
       />
     )
   })
